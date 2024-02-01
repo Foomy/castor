@@ -1,0 +1,25 @@
+.menu-item {
+    border-radius: 3px;
+    background: linear-gradient(145deg, #0c6aa3, #0e7ec2);
+    box-shadow:  3px 3px 6px #000;
+    margin: 0 15px 0 0;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.menu-item:hover {
+    background: linear-gradient(145deg, #4da7db, #5bc6ff);
+    box-shadow: none;
+    color: black;
+}
+
+.menu-item.active {
+    box-shadow: none;
+    color: white;
+}
+.menu-item.active:hover {
+    background: linear-gradient(145deg, #0c6aa3, #0e7ec2);
+    box-shadow: none;
+    color: white;
+}

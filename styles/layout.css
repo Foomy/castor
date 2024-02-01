@@ -1,0 +1,58 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    background: white;
+}
+
+body {
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: black;
+}
+
+header {
+    display: flex;
+    border: double black;
+    border-width: 0 0 3px 0;
+    padding: 5px 10px;
+    flex-direction: row;
+}
+
+nav {
+    display: flex;
+    margin: 10px 3%;
+    padding: 2px;
+    flex-direction: row;
+}
+
+#page-wrapper {
+    display: flex;
+    margin: 0 0 20px 0;
+    flex-direction: row;
+}
+
+    aside {
+        border: solid black;
+        border-width: 0 2px 0 0;
+        margin: 0 1%;
+        padding: 20px 10px;
+        width: 20%;
+    }
+
+    #content {
+        border: solid black;
+        border-width: 0 0 0 2px;
+        width: 75%;
+        padding: 20px;
+    }
+
+footer {
+    border: double black;
+    border-width: 3px 0 0 0;
+    padding: 5px 10px;
+}
