@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 .menu-item {
     border-radius: 3px;
     background: linear-gradient(145deg, #0c6aa3, #0e7ec2);
@@ -12,6 +14,7 @@
     background: linear-gradient(145deg, #4da7db, #5bc6ff);
     box-shadow: none;
     color: black;
+    cursor: pointer;
 }
 
 .menu-item.active {

@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+/**
+ * paragraphs
+ */
+p {
+    margin-bottom: 0.5em;
+}
+
+/**
+ * headlines
+ */
+h2 {
+    font-size: 1.8em;
+    line-height: 2em;
+}
+
+h3 {
+    font-size: 1.5em;
+    line-height: 1.8em;
+}
+
+h4 {
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+h5 {
+    font-size: 1em;
+    line-height: 1.3em;
+}
+
+/**
+ * form controls (i.e fields, buttons, etc.)
+ */
+button {
+    display: inline-block;
+    margin: 2px;
+    padding: 7px 12px;
+    font-size: 1em;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button.neutral {
+    background: linear-gradient(145deg, #6c757d, #9ba3a8);
+    border-radius: 5px;
+    color: black;
+}
+.neutral:hover {
+    background: linear-gradient(145deg, #9ba3a8, #b7bdc0);
+}
+
+button.info {
+    background: linear-gradient(145deg, #006aad, #27afff);
+    border-radius: 5px;
+    color: white;
+}
+.info:hover {
+    background: linear-gradient(145deg, #27afff, #62c4f8);
+    color: black;
+}
+
+button.okay {
+    background: linear-gradient(145deg, #31a93a, #63ff6c);
+    border-radius: 5px;
+    color: black;
+}
+.okay:hover {
+    background: linear-gradient(145deg, #63ff6c, #90ff96);
+}
+
+button.danger {
+    background: linear-gradient(145deg, #d50000, #ff7575);
+    border-radius: 5px;
+    color: white;
+}
+.danger:hover {
+    background: linear-gradient(145deg, #ff9393, #fdaaaa);
+    color: black;
+}
