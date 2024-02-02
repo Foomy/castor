@@ -1,0 +1,17 @@
+{
+    "home": {
+        "path": "/",
+        "type": "frontend",
+        "method": "GET"
+    },
+    "movies": {
+        "path": "/movies/",
+        "type": "backend",
+        "method": "GET"
+    },
+    "books": {
+        "path": "/books/",
+        "type": "backend",
+        "method": "GET"
+    }
+}

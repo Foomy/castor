@@ -80,3 +80,14 @@ button.danger {
     background: linear-gradient(145deg, #ff9393, #fdaaaa);
     color: black;
 }
+
+/**
+ * data lists
+ */
+.data-list table {
+    width: 100%;
+}
+
+.data-list table tr:nth-child(even) {
+    background: #bbb
+}

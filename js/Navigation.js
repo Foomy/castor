@@ -35,6 +35,7 @@ let Navigation = {
         },
 
         drawItem: function (item) {
+
             let mainNav = document.getElementsByClassName('js-mainNav').item(0),
                 navItem = document.createElement('div');
 
